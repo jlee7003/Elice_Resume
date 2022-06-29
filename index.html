@@ -1,24 +1,92 @@
-<style>
-img{
-    width:500px;
-    height:500px;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>엘리스 토끼 이력서</title>
+    <link rel="stylesheet" href="elice.css" />
+    <link href="//font.elice.io/EliceDigitalBaeum.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div id="navi">
+        <div id="logo">
+          <img
+            id="logo1"
+            src="https://elice.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F55d44f47-b328-4045-8a02-61c34f384eab%2FLogo_TypeB_purple.png?table=block&id=2278b101-b8f4-4739-a98c-e8591b78dbba&spaceId=530d1033-cf9f-41a2-b140-62d3e90887dd&width=480&userId=&cache=v2"
+          />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">홈</a></li>
+            <li><a href="#cv">이력서</a></li>
+            <li><a href="#study">학력사항</a></li>
+            <!--//id 로 이동-->
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <h1 id="cv">이력서</h1>
+      <section>
+        <h2>엘리스 토끼</h2>
+        <img src="windows-3f04FMm_Jqk-unsplash.jpg" alt="엘리스 토끼 프로필" />
+      </section>
 
-div{
-    border: 1px solid #000000;
-}
+      <div class="grid">
+        <section>
+          <h3>인적사항</h3>
+          <div><strong>생년월일:</strong> 1990. 03. 26 | O형</div>
+          <div><strong>주소:</strong> 대전광역시 유성구 문지로 193</div>
+          <div><strong>연락처:</strong> contact@elice.io | 070.4633.2017</div>
+        </section>
+     
 
-</style>
-
-<div>
-    <h1 style="color : blue;">Hello, World!</h1>
-</div>
-
-태그
-HTML 문서나 웹 페이지를 구성 하는 요소
-여는 태그와 닫는 태그로 구성되어 있음
-속성을 가질 수 있음
-태그와 속성은 소문자로 작성하기
-따옴표를 사용하는 것을 권장
-
-<img src="windows-3f04FMm_Jqk-unsplash.jpg"/>
+      <section id="study">
+        <h3>학력사항</h3>
+        <ul>
+          <li>2010.03 ~ 2013.02: 엘리스중학교 | 경기</li>
+          <li>2013.03 ~ 2016.02: 엘리스고등학교 | 경기 | 자연계</li>
+          <li>2016.03 ~ 2022.02: 엘리스대학교 | 서울 | 컴퓨터공학과</li>
+        </ul>
+      </section>
+      <section>
+        <h3>경력사항</h3>
+        <ol>
+          <li>한국 정보 올림피아드 대상</li>
+          <li>대학생 봉사 동아리 회장</li>
+          <li>엘리스 AI 트랙 수료</li>
+        </ol>
+      </section>
+      <section>
+        <h3>보유 스킬</h3>
+        <ul>
+          <li>
+            <a href="html.html"> HTML </a>
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/ko/docs/Web/CSS"> CSS </a>
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript">
+              JavaScript
+            </a>
+          </li>
+        </ul>
+      </div>
+      </section>
+    </main>
+    <footer>
+      <p>
+        <!-- control + / -> 주석처리 -->
+        Author by: 엘리스 토끼 <br />
+        Copyright ⓒ 2016 - 2022 elice. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
