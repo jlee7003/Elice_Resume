@@ -1,0 +1,31 @@
+02 웹사이트 레이아웃에 영향을 미치는 요소
+
+01.박스 모델
+02.Block요소와 inline 요소
+03.마진 병합 현상
+04.레이아웃에 영향을 미치는 속성
+05.쇼핑몰 만들기
+
+-박스 모델 구조
+캡처.PNG
+
+-형제지간의 마진 병합 현상
+
+margin-bottom과 margin-top 중 숫자가 큰 숫자로 병합이 적용됌
+
+-부모 자식지간의 마진 병합 현상
+
+자식인<article>뿐만아니라부모인<main>에도영향을미침
+
+레이아웃에 영향을 미치는 속성
+
+-display
+
+p{display:inline;}
+p{display:block;}
+p{display:inline-block;}
+
+Block과Inline 요소의성격을바꿀때사용
+inline-block을사용하면두요소의성격을모두가짐
+
+-float

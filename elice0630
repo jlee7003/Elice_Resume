@@ -1,0 +1,12 @@
+01 움직이는 웹사이트 제작
+
+
+01 transform
+02 transition
+03 Animation
+04 애니메이션 응용
+
+transition
+
+transition: width 2s linear 1s;
+            property duration time-function delay

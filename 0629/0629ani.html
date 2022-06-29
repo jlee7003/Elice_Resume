@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Transform, Animation</title>
+
+    <style>
+      #transform-example {
+        margin: 50px;
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        color: white;
+        /* transform: rotate(-35deg); */
+        transform: scale(1.5);
+      }
+      #transform-example {
+      }
+      #transform-example:hover {
+        width: 200px;
+        /* transition: width 3s ease-in 1s; */
+        transition: width 3s linear 1s;
+      }
+      #animation-example {
+        animation: animationEX 5s linear 0.3s infinite alternate;
+      }
+
+      @keyframes animationEX {
+        from {
+          transform: scale(1);
+        }
+        to {
+          transform: scale(2);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="transform-example">transform-example</div>
+
+    <div id="animation-example">animation-example</div>
+  </body>
+</html>

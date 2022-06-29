@@ -1,0 +1,29 @@
+img {
+  width: 800px;
+  height: 600px;
+}
+h1 {
+  color: red;
+  transition: color, 0.3s;
+}
+h1:hover {
+  color: blue;
+}
+div {
+  margin: 5px;
+}
+h2 {
+  color: red;
+}
+.internet,
+.browser {
+  color: green;
+  background-color: aqua;
+}
+input[type="button"] {
+  border: 1px solid red;
+}
+div > p {
+  background-color: bisque;
+}
+/* 손자는 영향을 받지 않음 */

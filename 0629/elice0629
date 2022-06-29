@@ -1,0 +1,29 @@
+Html 복습
+
+그룹 선택자
+
+internet, browser
+
+특성 선택자
+
+-css 적용 순서
+id > class > tag
+
+외부 css를 가져오는 link가 style 태그보다 위에 있을 때 / 내부 스타일 > 외부 스타일
+
+레이아웃을 지정하는 또 다른 방법
+
+flex, grid
+transition
+property : 적용하려는 속성
+• duration : 효과가 나타나는 시간
+• timing-function : 효과의 속도 함수
+• delay : 효과가 나타나기 전 딜레이
+
+animation
+name : keyframes로 호출할 이름
+• duration : 효과가 나타나는 시간
+• timing-function : 효과의 속도 함수
+• delay : 효과가 나타나기 전 딜레이
+• iteration-count : 효과 반복 수
+• direction : 효과 진행 방향
